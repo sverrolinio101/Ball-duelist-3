@@ -15,17 +15,17 @@ animations = [{
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_x5e63"]
-radius = 29.8329
+radius = 20.025
 
 [node name="CharacterBody2D2" type="CharacterBody2D"]
 script = ExtResource("1_jh3mj")
 
 [node name="Sprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
-position = Vector2(196, 118)
-scale = Vector2(1.56652, 1.60673)
+position = Vector2(188.401, 108.539)
+scale = Vector2(1.14437, 1.08114)
 sprite_frames = SubResource("SpriteFrames_1vla1")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(196, 118)
+position = Vector2(188, 108)
 shape = SubResource("CircleShape2D_x5e63")

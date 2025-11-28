@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://bt6dtjfkfbr0w"]
+
+[ext_resource type="Texture2D" uid="uid://d4cvcb3cqws2f" path="res://maps/starting screen ball duelist 3.png" id="1_peqe8"]
+[ext_resource type="Script" path="res://button_2.gd" id="2_6405u"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(576.5, 350.5)
+scale = Vector2(1.32187, 1.03194)
+texture = ExtResource("1_peqe8")
+
+[node name="Button2" type="Button" parent="."]
+offset_left = 559.0
+offset_top = 344.0
+offset_right = 618.0
+offset_bottom = 375.0
+text = "Battle!"
+script = ExtResource("2_6405u")
